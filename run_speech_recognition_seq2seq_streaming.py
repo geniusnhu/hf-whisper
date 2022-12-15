@@ -414,7 +414,7 @@ def main():
     
     # 4. Load dataset
     dataset_names = ["mozilla-foundation/common_voice_11_0", "mozilla-foundation/common_voice_11_0", "vivos", "vivos"]
-    dataset_config_names = ["vi", "vi", "", ""]
+    dataset_config_names = ["vi", "vi", None, None]
     text_column_names = ["sentence", "sentence",  "sentence", "sentence"]
     splits = ['train', 'validation', 'train', 'test']
     

@@ -413,10 +413,10 @@ def main():
     #     )
     
     # 4. Load dataset
-    dataset_names = ["mozilla-foundation/common_voice_11_0", "mozilla-foundation/common_voice_11_0", "google/fleurs", "google/fleurs", "google/fleurs", "vivos", "vivos"]
+    dataset_names = ["mozilla-foundation/common_voice_11_0", "mozilla-foundation/common_voice_11_0", "vivos", "vivos"]
     dataset_config_names = ["vi", "vi", "vi_vn", "vi_vn", "vi_vn", "", ""]
-    text_column_names = ["sentence", "sentence", "raw_transcription", "raw_transcription", "raw_transcription", "sentence", "sentence"]
-    splits = ['train', 'validation', 'train', 'validation', 'test', 'train', 'test']
+    text_column_names = ["sentence", "sentence",  "sentence", "sentence"]
+    splits = ['train', 'validation', 'train', 'test']
     
     raw_datasets = IterableDatasetDict()
     
